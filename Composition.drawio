@@ -1,0 +1,25 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.13">
+  <diagram name="Page-1" id="i1IsMThXOQduMcNPzDuD">
+    <mxGraphModel dx="1239" dy="717" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cKF5RDubTBr1JWiCKatq-2" value="&lt;div&gt;@Composable&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;modifer: Modifier&lt;/div&gt;&lt;div&gt;content: @Composable () -&amp;gt; Unit&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="40" y="280" width="480" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cKF5RDubTBr1JWiCKatq-3" value="Composition" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cKF5RDubTBr1JWiCKatq-4" value="Layout" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="320" y="80" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cKF5RDubTBr1JWiCKatq-5" value="Draw" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="600" y="80" width="200" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cKF5RDubTBr1JWiCKatq-7" value="&lt;div style=&quot;background-color: rgb(30, 31, 34); color: rgb(188, 190, 196);&quot;&gt;&lt;pre style=&quot;font-family: &amp;quot;Dank Mono&amp;quot;, monospace;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;color: rgb(179, 174, 96);&quot;&gt;@UiComposable&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(179, 174, 96);&quot;&gt;@Composable&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;color: rgb(207, 142, 109);&quot;&gt;inline fun &lt;/span&gt;&lt;span style=&quot;color: rgb(86, 168, 245);&quot;&gt;Layout&lt;/span&gt;(&lt;br&gt;    content: &lt;span style=&quot;color: rgb(179, 174, 96);&quot;&gt;@Composable @UiComposable &lt;/span&gt;() -&amp;gt; Unit,&lt;br&gt;    modifier: Modifier = Modifier,&lt;br&gt;    measurePolicy: MeasurePolicy&lt;br&gt;) &lt;/font&gt;&lt;/pre&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;fillColor=light-dark(#140611, #ededed);fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="40" y="460" width="390" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
